@@ -1,0 +1,55 @@
+
+
+body {
+   
+    background-image:url(imgs/LS_Login_Airplane.jpg);
+    background-repeat: no-repeat; /* Does not repeat image on the screen.*/
+    background-size: 100%;
+    background-attachment: fixed; /*No white space when resizing screen */
+    font-family: sans-serif;
+
+    
+}
+
+.main_content{
+    position: relative;
+    left: 1000px;
+    text-align: center;
+    background-color: rgb(210, 220, 226);
+    box-sizing: border-box;
+    border-radius: 2%;
+    height: 480px;
+    padding: 20px;
+    width: 320px;
+}
+
+#form{
+    border-radius: 10px;
+    padding: 15px ;
+    background-color: rgb(177, 177, 253);
+    text-align: right;
+}
+
+
+.input_bubble{
+   margin-top: 5px;
+   margin-bottom: 5px;
+    border-radius: 10%;
+    height: 20px;
+    padding: 5px;
+    width: 150px;
+    background-color: cornflowerblue;
+}
+
+#sign_up_button{
+    position: relative;
+    top: 13px;
+    background-color: gray;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    height: 30px;
+    width: 75px;
+    
+    border-style:hidden;
+    border-radius: 20%;
+}
